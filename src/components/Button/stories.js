@@ -3,7 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 // Import our component from this folder
-import Button from './Button';
+import MyForm from './MyForm';
 
 // Here we describe the stories we want to see of the Button. The component is
 // pretty simple so we will just make two, one with text and one with emojis
@@ -13,8 +13,5 @@ import Button from './Button';
 // rendered in the rendering area
 storiesOf('Button')
 	.add('with text', () => (
-		<Button onClick={action('clicked')}>Hello Button</Button>
+		<MyForm/>
 	))
-	.add('with emoji', () => (
-		<Button onClick={action('clicked')}>🚿 🚿 🐈 🐈</Button>
-	));
