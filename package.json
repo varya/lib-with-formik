@@ -38,6 +38,8 @@
     "css-loader": "^1.0.0",
     "docz": "^1.2.0",
     "docz-theme-default": "^1.2.0",
+    "formik": "^2.0.3",
+    "install-peers-cli": "^2.1.1",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
@@ -45,11 +47,8 @@
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0"
   },
-  "peerDdependencies": {
+  "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
-  },
-  "dependencies": {
-    "formik": "^2.0.3"
   }
 }
